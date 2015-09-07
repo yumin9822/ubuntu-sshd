@@ -19,6 +19,6 @@ root password: p@ssw0rd99
 ## Run example
 ```
 $ sudo docker run -d -P --name my_sshd yumin9822/ubuntu-sshd:latest
-$ sudo docker port my_sshd 22
-  0.0.0.0:49181
+$ sudo docker port my_sshd
+22/tcp -> 0.0.0.0:32770
 ```
