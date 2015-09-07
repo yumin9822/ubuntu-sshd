@@ -7,9 +7,13 @@ openssh-server
 
 ## Config:
 PermitRootLogin yes
+
 UsePAM no
+
 exposed port 22
+
 default command: /usr/sbin/sshd -D
+
 root password: p@ssw0rd99
 
 ## Run example
